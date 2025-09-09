@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApp1
+﻿namespace baitapthu3
 {
-    partial class Form1
+    partial class frmLong
     {
         /// <summary>
         /// Required designer variable.
@@ -28,31 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Form1
+            // button1
             // 
-            this.ClientSize = new System.Drawing.Size(841, 524);
-            this.Name = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load_1);
+            this.button1.Location = new System.Drawing.Point(276, 171);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // frmLong
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Name = "frmLong";
+            this.Text = "@long";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.TextBox txtKQ;
-        private System.Windows.Forms.TextBox txtC;
-        private System.Windows.Forms.TextBox txtB;
-        private System.Windows.Forms.TextBox txtA;
-        private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnGiai;
-        private System.Windows.Forms.Label Ketqua;
-        private System.Windows.Forms.Label Nhapc;
-        private System.Windows.Forms.Label Nhapb;
-        private System.Windows.Forms.Label Nhapa;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label tieuDe;
+        private System.Windows.Forms.Button button1;
     }
 }
