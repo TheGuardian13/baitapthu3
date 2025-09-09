@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace baitapthu3
 {
-    public partial class @long : Form
+    public partial class frmLong : Form
     {
-        public @long()
+        public frmLong()
         {
             InitializeComponent();
         }

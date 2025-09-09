@@ -1,6 +1,6 @@
 ﻿namespace baitapthu3
 {
-    partial class @long
+    partial class frmLong
     {
         /// <summary>
         /// Required designer variable.
@@ -40,13 +40,13 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // @long
+            // frmLong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Name = "@long";
+            this.Name = "frmLong";
             this.Text = "@long";
             this.ResumeLayout(false);
 
