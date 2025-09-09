@@ -1,6 +1,6 @@
 ﻿namespace baitapthu3
 {
-    partial class FormHung
+    partial class Dung2
     {
         /// <summary>
         /// Required designer variable.
@@ -30,46 +30,35 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(194, 69);
+            this.label1.Location = new System.Drawing.Point(95, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 13);
+            this.label1.Size = new System.Drawing.Size(168, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "công việc của anh Hưng";
+            this.label1.Text = "thử merge nhaa!";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(132, 166);
+            this.label2.Location = new System.Drawing.Point(143, 205);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 13);
+            this.label2.Size = new System.Drawing.Size(70, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Nhập nữa đi";
+            this.label2.Text = "label2";
             // 
-            // label3
+            // Dung2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(367, 219);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Nhập nữa đi";
-            // 
-            // FormHung
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "FormHung";
-            this.Text = "FormHung";
+            this.Name = "Dung2";
+            this.Text = "Dung2";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -79,6 +68,5 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
     }
 }

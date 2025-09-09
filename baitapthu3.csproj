@@ -52,6 +52,12 @@
     <Compile Include="Dung.Designer.cs">
       <DependentUpon>Dung.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dung2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dung2.Designer.cs">
+      <DependentUpon>Dung2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,7 @@
     <Compile Include="FormHung.Designer.cs">
       <DependentUpon>FormHung.cs</DependentUpon>
     </Compile>
+
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +88,7 @@
     </Compile>
     <Compile Include="nguyenthanhlong.Designer.cs">
       <DependentUpon>nguyenthanhlong.cs</DependentUpon>
+
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,17 +101,25 @@
     <EmbeddedResource Include="Dung.resx">
       <DependentUpon>Dung.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dung2.resx">
+      <DependentUpon>Dung2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHung.resx">
       <DependentUpon>FormHung.cs</DependentUpon>
     </EmbeddedResource>
+
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="long.resx">
       <DependentUpon>long.cs</DependentUpon>
+
+    <EmbeddedResource Include="Linh.resx">
+      <DependentUpon>Linh.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
