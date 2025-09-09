@@ -71,6 +71,19 @@
       <DependentUpon>FormHung.cs</DependentUpon>
     </Compile>
 
+    <Compile Include="Hunggpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hunggpt.Designer.cs">
+      <DependentUpon>Hunggpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Linh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Linh.Designer.cs">
+      <DependentUpon>Linh.cs</DependentUpon>
+
+
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +123,12 @@
     <EmbeddedResource Include="FormHung.resx">
       <DependentUpon>FormHung.cs</DependentUpon>
     </EmbeddedResource>
+
+    <EmbeddedResource Include="Hunggpt.resx">
+      <DependentUpon>Hunggpt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Linh.resx">
+      <DependentUpon>Linh.cs</DependentUpon>
 
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
