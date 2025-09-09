@@ -1,4 +1,6 @@
-﻿namespace baitapthu3
+﻿using System;
+
+namespace baitapthu3
 {
     partial class Hunggpt
     {
@@ -205,6 +207,16 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void txtKQ_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
