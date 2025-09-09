@@ -53,6 +53,7 @@
             this.btnClear.TabIndex = 25;
             this.btnClear.Text = "Nhập lại";
             this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // txtKQ
             // 
@@ -65,6 +66,7 @@
             this.txtKQ.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtKQ.Size = new System.Drawing.Size(268, 76);
             this.txtKQ.TabIndex = 24;
+            this.txtKQ.TextChanged += new System.EventHandler(this.txtKQ_TextChanged);
             // 
             // txtC
             // 
@@ -164,7 +166,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.Location = new System.Drawing.Point(253, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(354, 24);
+            this.label1.Size = new System.Drawing.Size(434, 29);
             this.label1.TabIndex = 14;
             this.label1.Text = "Phương trình: ax2+bx+c=0 (a khác 0)";
             // 
@@ -175,7 +177,7 @@
             this.tieuDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.tieuDe.Location = new System.Drawing.Point(193, 24);
             this.tieuDe.Name = "tieuDe";
-            this.tieuDe.Size = new System.Drawing.Size(438, 24);
+            this.tieuDe.Size = new System.Drawing.Size(550, 29);
             this.tieuDe.TabIndex = 13;
             this.tieuDe.Text = "CHƯƠNG TRÌNH GIẢI PHƯƠNG TRÌNH BẬC 2";
             // 
