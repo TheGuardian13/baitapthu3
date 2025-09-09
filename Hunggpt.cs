@@ -41,7 +41,7 @@ namespace baitapthu3
             else
             {
                 x1 = (-b + Math.Sqrt(d)) / (2 * a);
-                x2 = (-b - Math.Sqrt(d)) / (2 * a); // Sử dụng Math để gọi các hàm toán học
+                x2 = (-b - Math.Sqrt(d)) / (2 * a); // Sử dụng Math để gọi các hàm toán học 
                 // MessageBox.Show("Phương trình có hai nghiệm phân biệt: x1 = " + x1 + ", x2 = " + x2);
                 txtKQ.Text = "Phương trình có hai nghiệm phân biệt: x1 = " + Math.Round(x1, 1) + ", x2 = " + Math.Round(x2, 1);
             }
