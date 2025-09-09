@@ -116,10 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="long.resx">
       <DependentUpon>long.cs</DependentUpon>
-
+    </EmbeddedResource>
     <EmbeddedResource Include="Linh.resx">
       <DependentUpon>Linh.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
