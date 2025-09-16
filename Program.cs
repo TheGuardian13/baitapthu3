@@ -16,7 +16,7 @@ namespace baitapthu3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Hunggpt());
+            Application.Run(new Hungtachten());
         }
     }
 }
