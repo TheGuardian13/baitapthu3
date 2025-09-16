@@ -103,17 +103,8 @@
       <DependentUpon>Hungtachten.cs</DependentUpon>
     </Compile>
     <!-- Linh -->
-    <Compile Include="Linh.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Linh.Designer.cs">
-      <DependentUpon>Linh.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Hungtachten.resx">
       <DependentUpon>Hungtachten.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Linh.resx">
-      <DependentUpon>Linh.cs</DependentUpon>
     </EmbeddedResource>
     <!-- Form2 -->
     <!-- long -->
@@ -125,9 +116,6 @@
     </Compile>
     <EmbeddedResource Include="long.resx">
       <DependentUpon>long.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Linh.resx">
-      <DependentUpon>Linh.cs</DependentUpon>
     </EmbeddedResource>
     <!-- nguyenthanhlong -->
     <!-- thanhlong -->

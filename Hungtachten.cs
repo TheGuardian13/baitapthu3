@@ -103,5 +103,10 @@ namespace baitapthu3
                 MessageBox.Show("Vui lòng chỉ nhập chữ cái và dấu cách.", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void txtHoTen_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
