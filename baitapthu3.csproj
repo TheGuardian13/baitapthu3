@@ -1,196 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-
-	<PropertyGroup>
-		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-		<ProjectGuid>{694BAFB0-3A39-483D-8842-539E9173A3BA}</ProjectGuid>
-		<OutputType>WinExe</OutputType>
-		<RootNamespace>baitapthu3</RootNamespace>
-		<AssemblyName>baitapthu3</AssemblyName>
-		<TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-		<FileAlignment>512</FileAlignment>
-		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-		<Deterministic>true</Deterministic>
-	</PropertyGroup>
-
-	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-		<PlatformTarget>AnyCPU</PlatformTarget>
-		<DebugSymbols>true</DebugSymbols>
-		<DebugType>full</DebugType>
-		<Optimize>false</Optimize>
-		<OutputPath>bin\Debug\</OutputPath>
-		<DefineConstants>DEBUG;TRACE</DefineConstants>
-		<ErrorReport>prompt</ErrorReport>
-		<WarningLevel>4</WarningLevel>
-	</PropertyGroup>
-
-	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-		<PlatformTarget>AnyCPU</PlatformTarget>
-		<DebugType>pdbonly</DebugType>
-		<Optimize>true</Optimize>
-		<OutputPath>bin\Release\</OutputPath>
-		<DefineConstants>TRACE</DefineConstants>
-		<ErrorReport>prompt</ErrorReport>
-		<WarningLevel>4</WarningLevel>
-	</PropertyGroup>
-
-	<ItemGroup>
-		<Reference Include="System" />
-		<Reference Include="System.Core" />
-		<Reference Include="System.Xml.Linq" />
-		<Reference Include="System.Data.DataSetExtensions" />
-		<Reference Include="Microsoft.CSharp" />
-		<Reference Include="System.Data" />
-		<Reference Include="System.Deployment" />
-		<Reference Include="System.Drawing" />
-		<Reference Include="System.Net.Http" />
-		<Reference Include="System.Windows.Forms" />
-		<Reference Include="System.Xml" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<!-- Dung -->
-		<Compile Include="Dung.cs">
-			<SubType>Form</SubType>
-		</Compile>
-		<Compile Include="Dung.Designer.cs">
-			<DependentUpon>Dung.cs</DependentUpon>
-		</Compile>
-		<EmbeddedResource Include="Dung.resx">
-			<DependentUpon>Dung.cs</DependentUpon>
-		</EmbeddedResource>
-
-		<!-- Dung2 -->
-		<Compile Include="Dung2.cs">
-			<SubType>Form</SubType>
-		</Compile>
-		<Compile Include="Dung2.Designer.cs">
-			<DependentUpon>Dung2.cs</DependentUpon>
-		</Compile>
-		<EmbeddedResource Include="Dung2.resx">
-			<DependentUpon>Dung2.cs</DependentUpon>
-		</EmbeddedResource>
-
-		<!-- Form1 -->
-		<Compile Include="Form1.cs">
-			<SubType>Form</SubType>
-		</Compile>
-		<Compile Include="Form1.Designer.cs">
-			<DependentUpon>Form1.cs</DependentUpon>
-		</Compile>
-		<EmbeddedResource Include="Form1.resx">
-			<DependentUpon>Form1.cs</DependentUpon>
-		</EmbeddedResource>
-
-		<!-- FormHung -->
-		<Compile Include="FormHung.cs">
-			<SubType>Form</SubType>
-		</Compile>
-		<Compile Include="FormHung.Designer.cs">
-			<DependentUpon>FormHung.cs</DependentUpon>
-		</Compile>
-		<EmbeddedResource Include="FormHung.resx">
-			<DependentUpon>FormHung.cs</DependentUpon>
-		</EmbeddedResource>
-
-		<!-- Hunggpt -->
-		<Compile Include="Hunggpt.cs">
-			<SubType>Form</SubType>
-		</Compile>
-		<Compile Include="Hunggpt.Designer.cs">
-			<DependentUpon>Hunggpt.cs</DependentUpon>
-		</Compile>
-		<EmbeddedResource Include="Hunggpt.resx">
-			<DependentUpon>Hunggpt.cs</DependentUpon>
-		</EmbeddedResource>
-
-		<!-- Linh -->
-		<Compile Include="Linh.cs">
-			<SubType>Form</SubType>
-		</Compile>
-		<Compile Include="Linh.Designer.cs">
-			<DependentUpon>Linh.cs</DependentUpon>
-		</Compile>
-		<EmbeddedResource Include="Linh.resx">
-			<DependentUpon>Linh.cs</DependentUpon>
-		</EmbeddedResource>
-
-		<!-- Form2 -->
-		<Compile Include="Form2.cs">
-			<SubType>Form</SubType>
-		</Compile>
-		<Compile Include="Form2.Designer.cs">
-			<DependentUpon>Form2.cs</DependentUpon>
-		</Compile>
-		<EmbeddedResource Include="Form2.resx">
-			<DependentUpon>Form2.cs</DependentUpon>
-		</EmbeddedResource>
-
-		<!-- long -->
-		<Compile Include="long.cs">
-			<SubType>Form</SubType>
-		</Compile>
-		<Compile Include="long.Designer.cs">
-			<DependentUpon>long.cs</DependentUpon>
-		</Compile>
-		<EmbeddedResource Include="long.resx">
-			<DependentUpon>long.cs</DependentUpon>
-		</EmbeddedResource>
-
-		<!-- nguyenthanhlong -->
-		<Compile Include="nguyenthanhlong.cs">
-			<SubType>Form</SubType>
-		</Compile>
-		<Compile Include="nguyenthanhlong.Designer.cs">
-			<DependentUpon>nguyenthanhlong.cs</DependentUpon>
-		</Compile>
-		<EmbeddedResource Include="nguyenthanhlong.resx">
-			<DependentUpon>nguyenthanhlong.cs</DependentUpon>
-		</EmbeddedResource>
-
-		<!-- thanhlong -->
-		<Compile Include="thanhlong.cs">
-			<SubType>Form</SubType>
-		</Compile>
-		<Compile Include="thanhlong.Designer.cs">
-			<DependentUpon>thanhlong.cs</DependentUpon>
-		</Compile>
-		<EmbeddedResource Include="thanhlong.resx">
-			<DependentUpon>thanhlong.cs</DependentUpon>
-		</EmbeddedResource>
-
-		<!-- Core -->
-		<Compile Include="Program.cs" />
-		<Compile Include="Properties\AssemblyInfo.cs" />
-
-		<!-- Resources -->
-		<EmbeddedResource Include="Properties\Resources.resx">
-			<Generator>ResXFileCodeGenerator</Generator>
-			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
-			<SubType>Designer</SubType>
-		</EmbeddedResource>
-		<Compile Include="Properties\Resources.Designer.cs">
-			<AutoGen>True</AutoGen>
-			<DependentUpon>Resources.resx</DependentUpon>
-		</Compile>
-
-		<!-- Settings -->
-		<None Include="Properties\Settings.settings">
-			<Generator>SettingsSingleFileGenerator</Generator>
-			<LastGenOutput>Settings.Designer.cs</LastGenOutput>
-		</None>
-		<Compile Include="Properties\Settings.Designer.cs">
-			<AutoGen>True</AutoGen>
-			<DependentUpon>Settings.settings</DependentUpon>
-			<DesignTimeSharedInput>True</DesignTimeSharedInput>
-		</Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-		<None Include="App.config" />
-	</ItemGroup>
-
-	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{694BAFB0-3A39-483D-8842-539E9173A3BA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>baitapthu3</RootNamespace>
+    <AssemblyName>baitapthu3</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Dung -->
+    <Compile Include="Dung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dung.Designer.cs">
+      <DependentUpon>Dung.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dung.resx">
+      <DependentUpon>Dung.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- Dung2 -->
+    <Compile Include="Dung2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dung2.Designer.cs">
+      <DependentUpon>Dung2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dung2.resx">
+      <DependentUpon>Dung2.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- Form1 -->
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- FormHung -->
+    <Compile Include="FormHung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHung.Designer.cs">
+      <DependentUpon>FormHung.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormHung.resx">
+      <DependentUpon>FormHung.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- Hunggpt -->
+    <Compile Include="Hunggpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hunggpt.Designer.cs">
+      <DependentUpon>Hunggpt.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Hunggpt.resx">
+      <DependentUpon>Hunggpt.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- Linh -->
+    <Compile Include="Linh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Linh.Designer.cs">
+      <DependentUpon>Linh.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Linh.resx">
+      <DependentUpon>Linh.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- Form2 -->
+    <!-- long -->
+    <Compile Include="long.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="long.Designer.cs">
+      <DependentUpon>long.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="long.resx">
+      <DependentUpon>long.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- nguyenthanhlong -->
+    <!-- thanhlong -->
+    <!-- Core -->
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <!-- Resources -->
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <!-- Settings -->
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -55,7 +55,7 @@ namespace baitapthu3
             this.btnClear.TabIndex = 25;
             this.btnClear.Text = "Nhập lại";
             this.btnClear.UseVisualStyleBackColor = false;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click_1);
             // 
             // txtKQ
             // 
@@ -68,7 +68,7 @@ namespace baitapthu3
             this.txtKQ.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtKQ.Size = new System.Drawing.Size(268, 76);
             this.txtKQ.TabIndex = 24;
-            this.txtKQ.TextChanged += new System.EventHandler(this.txtKQ_TextChanged);
+            this.txtKQ.TextChanged += new System.EventHandler(this.txtKQ_TextChanged_1);
             // 
             // txtC
             // 
@@ -78,6 +78,7 @@ namespace baitapthu3
             this.txtC.Name = "txtC";
             this.txtC.Size = new System.Drawing.Size(100, 30);
             this.txtC.TabIndex = 23;
+            this.txtC.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtC_KeyDown);
             // 
             // txtB
             // 
@@ -87,6 +88,7 @@ namespace baitapthu3
             this.txtB.Name = "txtB";
             this.txtB.Size = new System.Drawing.Size(100, 30);
             this.txtB.TabIndex = 22;
+            this.txtB.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtB_KeyDown);
             // 
             // txtA
             // 
@@ -96,6 +98,7 @@ namespace baitapthu3
             this.txtA.Name = "txtA";
             this.txtA.Size = new System.Drawing.Size(100, 30);
             this.txtA.TabIndex = 21;
+            this.txtA.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtA_KeyDown);
             // 
             // btnExit
             // 
@@ -120,6 +123,7 @@ namespace baitapthu3
             this.btnGiai.Text = "Giải Phương Trình";
             this.btnGiai.UseVisualStyleBackColor = false;
             this.btnGiai.Click += new System.EventHandler(this.btnGiai_Click);
+            this.btnGiai.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnGiai_KeyDown);
             // 
             // Ketqua
             // 
@@ -168,7 +172,7 @@ namespace baitapthu3
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.Location = new System.Drawing.Point(253, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(434, 29);
+            this.label1.Size = new System.Drawing.Size(354, 24);
             this.label1.TabIndex = 14;
             this.label1.Text = "Phương trình: ax2+bx+c=0 (a khác 0)";
             // 
@@ -179,7 +183,7 @@ namespace baitapthu3
             this.tieuDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.tieuDe.Location = new System.Drawing.Point(193, 24);
             this.tieuDe.Name = "tieuDe";
-            this.tieuDe.Size = new System.Drawing.Size(550, 29);
+            this.tieuDe.Size = new System.Drawing.Size(438, 24);
             this.tieuDe.TabIndex = 13;
             this.tieuDe.Text = "CHƯƠNG TRÌNH GIẢI PHƯƠNG TRÌNH BẬC 2";
             // 
